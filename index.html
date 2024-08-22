@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Layout</title>
+
+    <style type="text/css">
+ *{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial;
+    box-sizing: border-box;
+    
+ }       
+ body{
+    display: flex;
+    flex-direction: column;
+ }
+
+#head-div{
+    display: flex;
+    flex-direction:row;
+    width:100%;
+    min-height: 50px;
+    background-color: green;
+    align-items: center;
+    margin-top: 10px;
+    justify-content:center;
+    
+
+     
+}
+   
+#men-div{
+
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    min-height: 50px;
+    background-color: aqua;
+    align-items: center;
+    margin-top: 10px;
+    justify-content: center;
+     
+}
+#main-div{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    min-height: 200px;
+   background-color: darkmagenta;
+    margin-top: 10px;
+    
+      
+}
+
+#Menu-div{
+
+    display: flex;
+    flex-direction: row;
+    flex-basis: 20%;
+    background-color: blue;
+     
+}
+
+#Content-div{
+    display: flex;
+    flex-direction: row;
+    flex-basis: 75;
+    background-color: darkmagenta;
+    
+}
+
+#foot-div{
+    display: flex;
+    flex-direction:row;
+    width:100%;
+    min-height: 50px;
+    background-color: chocolate;
+    align-items: center;
+    margin-top: 10px;
+    justify-content:center;
+     
+}
+    </style>
+</head>
+<body>
+    <div id="head-div">
+        Header
+    </div>
+    <div id="men-div">
+        Menu
+    </div>
+
+    <div id="main-div">
+        <div id="Menu-div">
+         Menu
+        </div>
+        <div id="Content-div">
+              Content
+        </div>
+    </div>
+
+    <div id="foot-div">
+        Footer
+    </div>
+</body>
+</html>
